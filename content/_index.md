@@ -1,5 +1,5 @@
 ---
-title: My Site
+title: Federico Serini
 toc: false
 ---
 
@@ -18,7 +18,3 @@ This website is powered by Hugo with Hextra theme and hosted on Vercel
   {{< card link="blog" title="Blog" icon="pencil" >}}
   {{< card link="about" title="About" icon="user" >}} 
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
