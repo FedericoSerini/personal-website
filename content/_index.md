@@ -18,3 +18,9 @@ This website is powered by Hugo with Hextra theme and hosted on Vercel
   {{< card link="blog" title="Blog" icon="pencil" >}}
   {{< card link="about" title="About" icon="user" >}} 
 {{< /cards >}}
+
+
+<div>
+  <script> window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</div>
