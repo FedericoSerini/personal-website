@@ -1,4 +1,7 @@
 ---
+id: _index
+aliases: []
+tags: []
 title: Federico Serini
 toc: false
 ---
@@ -11,14 +14,13 @@ Let’s connect and build something amazing together!
 
 This website is powered by Hugo with Hextra theme and hosted on Vercel
 
-
 ## Explore
 
 {{< cards >}}
   {{< card link="blog" title="Blog" icon="pencil" >}}
-  {{< card link="about" title="About" icon="user" >}} 
+  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="docs" title="Homelab" icon="server" >}}
 {{< /cards >}}
-
 
 <div>
   <script> window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
