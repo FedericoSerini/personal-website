@@ -2,7 +2,7 @@
 linkTitle: Infrastructure
 weight: 4
 title: Infrastructure
-prev: /docs/apps/mealie/
+prev: /docs/apps/phos/
 next: /docs/Infrastructure/operators/
 sidebar:
   open: true
