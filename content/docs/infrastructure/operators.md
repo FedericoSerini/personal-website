@@ -17,3 +17,4 @@ These are the currently installed operators, most of them are installed via Helm
 * Kyverno
 * ExternalDNS
 * Synology CSI Storage
+* Kube Prometheus Stack

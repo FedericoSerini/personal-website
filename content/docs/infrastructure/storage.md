@@ -2,6 +2,7 @@
 title: Storage
 weight: 4
 prev: /docs/infrastructure/databases/
+next: /docs/security
 ---
 
 ## 🚧 Under Construction

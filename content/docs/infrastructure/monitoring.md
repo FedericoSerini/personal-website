@@ -9,5 +9,4 @@ weight: 2
 
 ### Highlights
 
-* At the time of this writing, there is no monitoring resource on the cluster.
-* However, I am planning to use Prometheus and Grafana
+* My homelab uses Prometheus and Grafana, via the kube-prometheus-stack operator
