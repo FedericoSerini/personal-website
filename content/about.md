@@ -1,6 +1,8 @@
 ---
 title: About
 type: about
+description: "Learn more about Name Surname, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
+keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Cloud Automation"]
 ---
 
 Hey there! I’m Federico, a software engineer on an exciting journey into the world of DevOps. My current focus is on building scalable, automated infrastructure and enhancing workflows using modern tools and practices. While I’m just starting in this field, I’m already diving into Kubernetes, CI/CD pipelines, and infrastructure as code—and I document it all in my home lab.
