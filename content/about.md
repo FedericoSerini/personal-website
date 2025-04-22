@@ -1,7 +1,7 @@
 ---
 title: About
 type: about
-description: "Learn more about Name Surname, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
+description: "Learn more about Federico Serini, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
 keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Cloud Automation"]
 ---
 
