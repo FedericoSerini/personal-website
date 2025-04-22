@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: Federico Serini
+title: Federico Serini | Software Engineer
 
 # import hextra as module
 module:
@@ -53,3 +53,9 @@ params:
 
   editURL:
     enable: false
+
+  author: "Federico Serini"
+
+  description: "Federico Serini is a software engineer who loves using Kubernetes, cloud, and automation. Continuously applies DevOps principles through GitOps.."
+
+  keywords: ["Federico Serini", "Software Engineer", "Kubernetes", "Cloud", "DevOps", "GitOps", "Automation"]
