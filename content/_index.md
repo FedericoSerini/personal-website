@@ -2,7 +2,9 @@
 id: _index
 aliases: []
 tags: []
-title: Federico Serini
+title: Federico Serini | Software Engineer
+description: "Learn more about Federico Serini, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
+keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Cloud Automation"]
 toc: false
 ---
 
