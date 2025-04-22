@@ -5,7 +5,9 @@ tags:
   - GitOps
   - FluxCD
 date: "2025-02-11"
-title: GitOps intro
+title: GitOps Intro
+description: "GitOps Intro"
+keywords: ["DevOps", "Kubernetes", "GitOps", "FluxCD"]
 ---
 
 ## GitOps: An Evolution of IaC  
