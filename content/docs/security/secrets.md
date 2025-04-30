@@ -2,6 +2,7 @@
 title: Secrets
 weight: 2
 prev: /docs/security/falco
+next: /docs/security/keycloak
 ---
 
 
