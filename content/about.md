@@ -5,7 +5,7 @@ description: "Learn more about Federico Serini, a DevOps-focused software engine
 keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Cloud Automation"]
 ---
 
-Hey there! I’m Federico, a software engineer on an exciting journey into the world of DevOps. My current focus is on building scalable, automated infrastructure and enhancing workflows using modern tools and practices. While I’m just starting in this field, I’m already diving into Kubernetes, CI/CD pipelines, and infrastructure as code—and I document it all in my home lab.
+Hey there! I’m Federico, a former software engineer on an exciting journey into the world of DevOps. My current focus is on building scalable, automated infrastructure and enhancing workflows using modern tools and practices. While I’m just starting in this field, I’m already diving into Kubernetes, CI/CD pipelines, and infrastructure as code—and I document it all in my home lab.
 
 My home lab is more than a project; it’s where theory meets practice. It’s my personal playground where I experiment with deploying containerized applications, managing clusters, automating workflows, and exploring monitoring tools. Through hands-on learning, I’m tackling real-world scenarios to build a strong foundation in DevOps principles.
 
