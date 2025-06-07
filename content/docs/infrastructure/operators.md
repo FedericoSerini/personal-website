@@ -11,10 +11,12 @@ weight: 1
 
 These are the currently installed operators, most of them are installed via HelmRelease
 
-* MariaDB
+
 * Cloudnative PG
-* Falco
-* Kyverno
 * ExternalDNS
+* Falco
+* Keycloak
+* MariaDB
+* MongoDB
 * Synology CSI Storage
 * Kube Prometheus Stack
