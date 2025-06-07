@@ -57,6 +57,9 @@ params:
   editURL:
     enable: false
 
+  page:
+    width: full
+
   author: "Federico Serini"
 
   description: "Learn more about Federico Serini, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
