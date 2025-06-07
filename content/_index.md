@@ -22,6 +22,7 @@ This website is powered by Hugo with Hextra theme and hosted on Vercel
   {{< card link="blog" title="Blog" icon="pencil" >}}
   {{< card link="about" title="About" icon="user" >}}
   {{< card link="docs" title="Homelab" icon="server" >}}
+  {{< card link="career" title="Career" icon="briefcase" >}}
 {{< /cards >}}
 
 <div>
