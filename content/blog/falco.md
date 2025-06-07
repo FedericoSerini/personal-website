@@ -68,6 +68,9 @@ customRules:
           tags: [security, container]
 ```
 
+This actually checks if suspicious commands are triggered inside a container,
+specifically ones of "bookstack"
+
 ## Sneaky problem
 
 While setting this up, I hit a sneaky issue: Falco wasn't attaching useful
