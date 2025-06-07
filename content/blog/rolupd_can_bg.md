@@ -35,7 +35,7 @@ strategy:
     maxSurge: 1
   ```
 
->Pros: Simple, efficient, minimal resource cost
+>Pros: Simple, efficient, minimal resource cost  
 Cons: No version isolation—bugs in new pods can affect users immediately
 
 ## Blue/Green Deployment
@@ -44,7 +44,7 @@ Cons: No version isolation—bugs in new pods can affect users immediately
 * New version is deployed to Green, tested, and traffic is switched over when ready.
 * Rollback is instant—just point traffic back to Blue.
 
-> Pros: Safe, instant rollback
+> Pros: Safe, instant rollback  
 Cons: Requires extra infra and routing control (Ingress or Load Balancer)
 
 ### How to implement
