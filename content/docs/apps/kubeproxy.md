@@ -5,7 +5,7 @@ prev: /docs/apps/phos/
 next: /docs/infrastructure/
 ---
 
-## Descriptiom
+## Description
 
 A lightweight app to monitor the status of resources inside
 the Kubernetes cluster, is a read only application.
