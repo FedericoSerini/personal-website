@@ -46,7 +46,7 @@ I can:
 
 This setup gives me the best of both worlds: speed and safety, automation and control.
 
-And here’s a snippet of the YAML config I used:
+And here’s a snippet of the JSON config I used:
 
 ```json
 {
