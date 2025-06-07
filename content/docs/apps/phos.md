@@ -2,7 +2,7 @@
 title: Phos
 weight: 4
 prev: /docs/apps/mealie/
-next: /docs/infrastructure/
+next: /docs/apps/kubeproxy/
 ---
 
 ## 🚧 Under Construction
