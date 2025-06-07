@@ -49,8 +49,6 @@ This setup gives me the best of both worlds: speed and safety, automation and co
 And here’s a snippet of the YAML config I used:
 
 ```json
-```
-
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
@@ -63,3 +61,4 @@ And here’s a snippet of the YAML config I used:
     ]
   }
 }
+```
