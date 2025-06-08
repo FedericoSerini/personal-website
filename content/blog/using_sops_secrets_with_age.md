@@ -1,12 +1,13 @@
 ---
-id: Using SOPS Secrets with Age in My Homelab
+id: Using SOPS Secrets with Age
 aliases: []
 tags:
   - GitOps
   - FluxCD
   - Secret Management
 date: "2025-02-19"
-title: Using SOPS Secrets with Age in My Homelab
+title: Using SOPS Secrets with Age
+description: "A brief introduction to SOPS secrets and how they fits in my homelab"
 ---
 
 In my [Homelab](https://github.com/FedericoSerini/homelab), I needed a secure way to store secrets without exposing plain credentials in my GitOps repository. After evaluating three options:
@@ -29,6 +30,7 @@ Below is my setup process.
 ## Installing SOPS and Age
 
 To install **SOPS** and **Age** on my Linux cluster, I used Homebrew:
+
 ```bash
 brew install sops age
 ```
@@ -67,6 +69,7 @@ sops --age=$AGE_PUBLIC \
 This produces an encrypted secret. You can see an example in my [Homelab repository](https://github.com/FedericoSerini/homelab/blob/main/apps/staging/linkding/linkding-secret.yaml).
 
 ---
+
 ## Configuring the Cluster & FluxCD
 
 ### 1. Creating the Age Secret in the Cluster
@@ -84,8 +87,7 @@ kubectl create secret generic sops-age \
 
 In the `clusters/environment` directory of the GitOps repository, I created a `.sops.yaml` file to define encryption rules:
 
-
-```yaml 
+```yaml
 creation_rules:
   - path_regex: .*.yaml
     encrypted_regex: ^(data|stringData)$

@@ -6,7 +6,7 @@ tags:
   - falco
 date: "2025-03-19"
 title: Falco Intro
-description: "A brief introduction to Falco"
+description: "A brief introduction to Falco and how it fits in my homelab"
 keywords: ["DevOps", "DevSecOps", "Security", "falco"]
 ---
 

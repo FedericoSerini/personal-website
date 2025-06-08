@@ -6,6 +6,7 @@ tags:
   - aws
 date: "2025-02-08"
 title: My Cloud Roadmap
+description: "A simple roadmap according to my objectives"
 ---
 
 I want to share some thoughts on my DevOps journey,

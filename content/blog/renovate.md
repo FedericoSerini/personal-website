@@ -6,7 +6,7 @@ tags:
   - Dependency management
 date: "2025-04-16"
 title: Renovate Intro
-description: "A brief introduction to Renovate"
+description: "A brief introduction to Renovate and how it fits in my homelab"
 keywords: ["DevOps", "Automation", "Dependency management"]
 ---
 
