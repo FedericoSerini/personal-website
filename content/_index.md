@@ -2,13 +2,13 @@
 id: _index
 aliases: []
 tags: []
-title: Federico Serini | DevOps Engineer
-description: "Learn more about Federico Serini, a DevOps-focused software engineer passionate about Kubernetes, GitOps, and cloud automation."
-keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Cloud Automation"]
+title: Federico Serini | Site Reliability Engineer
+description: "Learn more about Federico Serini, a Site Reliability Engineer passionate about Kubernetes, GitOps, and cloud automation."
+keywords: ["DevOps", "Kubernetes", "GitOps", "Software Engineer", "Site Reliability Engineer", "Cloud Automation"]
 toc: false
 ---
 
-Hi, I’m Federico 👋 I’m a former software engineer who transitioned to DevOps. Through hands-on projects in my home lab and daily experiments with Kubernetes and CI/CD pipelines, I’m building the skills to solve real-world challenges.
+Hi, I’m Federico 👋 I’m a software engineer specialized in Site Reliability. Through hands-on projects in my home lab and daily experiments with Kubernetes and CI/CD pipelines, I’m building the skills to solve real-world challenges.
 
 Fueled by coffee and inspired by nature, I balance my tech pursuits with hiking adventures and volunteering for wildfire suppression efforts. This site is my digital journal—where I share my progress, insights, and experiments.
 
