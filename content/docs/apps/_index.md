@@ -9,4 +9,4 @@ sidebar:
 
 These are the current apps installed on the cluster
 
-{{< cards >}} {{< card link="linkding" title="Linkding" icon="template" >}} {{< card link="bookstack" title="Bookstack" icon="template" >}} {{< card link="mealie" title="Mealie" icon="template" >}} {{< card link="phos" title="Phos" icon="template" >}} {{< /cards >}}
+{{< cards >}} {{< card link="linkding" title="Linkding" icon="template" >}} {{< card link="bookstack" title="Bookstack" icon="template" >}} {{< card link="mealie" title="Mealie" icon="template" >}} {{< card link="phos" title="Phos" icon="template" >}} {{< card link="kubeproxy" title="KubeProxy" icon="template" >}} {{< card link="mobile-db" title="Mobile DB" icon="template" >}} {{< card link="moneybud" title="Moneybud" icon="template" >}} {{< /cards >}}

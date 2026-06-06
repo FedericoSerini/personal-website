@@ -8,7 +8,7 @@ The idea of building a homelab comes from a few key goals:
 * Have fun!
 * Practice Kubernetes and DevOps principles
 * Share and showcase my work without exposing sensitive data.
-This forces me to think aboutsecurity and treat the homelab
+This forces me to think about security and treat the homelab
 like a real production environment, considering aspects like
 scalability and backups.
 

@@ -5,31 +5,58 @@ prev: /docs/startup/
 next: /docs/startup/fluxcd/
 ---
 
-## 🚧 Under Construction
+The cluster runs on [Talos Linux](https://www.talos.dev/)—an immutable, API-driven OS
+with no SSH and no shell, designed exclusively for Kubernetes.
 
-## Installing K3s
+## Building the Talos Image
 
-- Run K3s installation script with helm controller disabled, this because K3s comes with a default Helm controller but I want to use the FluxCD one
+Rather than using a stock Talos image, I build a custom one via the
+[Talos Image Factory](https://factory.talos.dev/) with the extensions I need:
 
-```shell
-sudo su -
-curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC=" --disable=helm-controller" sh
-sudo systemctl status k3s.service
-```
+- `iscsi-tools` — Synology CSI driver dependency
+- `tailscale` — VPN access to the cluster
 
-## Exporting Kubernetes configuration
+The result is a schematic ID that pins the exact image used to provision the node.
+Reproducible and auditable.
 
-```shell
-cd
-sudo cp /etc/rancher/k3s/k3s.yaml .
-exit
-```
+## Bootstrapping the Node
 
-On main system
+Talos is bootstrapped by applying a machine config to the node over the network.
+No installer ISO needed once the image is in place.
 
 ```shell
-scp <user>@<local_ip>:/home/<user>/k3s.yaml .
-vim k3s.yaml # edit the IP
-mkdir ~/.kube
-mv k3s.yaml .kube/config
+talosctl apply-config --insecure --nodes <node-ip> --file controlplane.yaml
 ```
+
+After applying config, bootstrap the Kubernetes control plane:
+
+```shell
+talosctl bootstrap --nodes <node-ip> --talosconfig=./talosconfig
+```
+
+Retrieve the kubeconfig:
+
+```shell
+talosctl kubeconfig --nodes <node-ip> --talosconfig=./talosconfig
+```
+
+## Patching Machine Config
+
+Since there's no shell on Talos, all node-level changes go through `talosctl patch machineconfig`.
+For example, the Falco eBPF driver requires a non-default sysctl:
+
+```shell
+talosctl patch machineconfig \
+  --nodes <node-ip> \
+  --patch '[{"op":"add","path":"/machine/sysctls","value":{"kernel.perf_event_paranoid":"1"}}]'
+```
+
+## Exporting Kubeconfig
+
+```shell
+talosctl kubeconfig ~/.kube/config \
+  --nodes <node-ip> \
+  --talosconfig ~/talos-config/talosconfig
+```
+
+From here, standard `kubectl` commands work as expected against the cluster.

@@ -4,6 +4,7 @@ weight: 5
 title: Security
 prev: /docs/infrastructure/storage/
 next: /docs/security/falco/
+
 sidebar:
   open: true
 ---

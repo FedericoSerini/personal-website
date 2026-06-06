@@ -2,7 +2,7 @@
 title: Kubeproxy
 weight: 5
 prev: /docs/apps/phos/
-next: /docs/infrastructure/
+next: /docs/apps/mobile-db/
 ---
 
 ## Description
